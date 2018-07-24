@@ -1,0 +1,658 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- Page title -->
+	<title>金麦粒</title>
+
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/logo.png">
+
+	<!-- Style -->
+	<link rel="stylesheet" href="css/theme.css">
+	<link rel="stylesheet" href="css/solution.css">
+	<!-- TODO: Predefined Schemes (select one of the presented) -->
+	<link rel="alternate stylesheet" href="css/theme-persimmon.css" title="theme-persimmon">
+	<link rel="alternate stylesheet" href="css/theme-atomic-tangerine.css" title="theme-atomic-tangerine">
+	<link rel="alternate stylesheet" href="css/theme-yellow-sea.css" title="theme-yellow-sea">
+	<link rel="alternate stylesheet" href="css/theme-rio-grande.css" title="theme-rio-grande">
+	<link rel="alternate stylesheet" href="css/theme-vida-loca.css" title="theme-vida-loca">
+	<link rel="alternate stylesheet" href="css/theme-mountain-meadow.css" title="theme-mountain-meadow">
+	<link rel="alternate stylesheet" href="css/theme-java.css" title="theme-java">
+	<link rel="alternate stylesheet" href="css/theme-mariner.css" title="theme-mariner">
+	<link rel="alternate stylesheet" href="css/theme-medium-purple.css" title="theme-medium-purple">
+	<link rel="alternate stylesheet" href="css/theme-lavender-magenta.css" title="theme-lavender-magenta">
+	<style type="text/css">
+	.newstitle:after {  
+		content:'';  
+		display:block;  
+		margin-top:5px; 
+		border-bottom:2px solid #EE9206;  
+	} 
+	.sidebar-menu li.active{  
+		background-color: #EE9206;
+		
+	} 
+	.sidebar-menu li a {
+		padding-left: 10px;
+	}
+	.sidebar-menu li.active a {
+		color:#fff;
+	}
+	.sidebar-menu li a:hover {
+		color: #000;
+	}
+	.breadcrumb>li+li:before{padding:0 5px;color:#ccc;content:">\00a0"}
+	body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 { font-family: Microsoft YaHei,'宋体' , Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;}
+</style>
+
+</head>
+<body>
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div class="loader"></div>
+	</div>
+	<!-- /Preloader -->
+
+	<!-- Header -->
+	<header id="home" class="header">
+
+		<!-- Navigation -->
+		<nav id="navigation" class="navbar affix">
+
+			<!-- Company Information -->
+			<div class="information hidden-sm hidden-xs">
+				<div class="container">
+					<div class="row">
+
+						<!-- Feedback -->
+						<div class="col-md-7">
+							<a href="http://j.map.baidu.com/JlTnO" class="iframe-popup"><span class="icon icon_pin_alt"></span>联系地址</a>
+							<a href="#"><span class="icon icon_mail_alt"></span> admin@myleap.cn</a>
+							<a href="#"><span class="icon icon_phone"></span>0755-26651965</a>
+						</div>
+						<!-- /Feedback -->
+
+						<!-- Social -->
+						<div class="col-md-5">
+							<!-- <ul class="social">
+								<li><a href="#" class="fa fa-fw fa-facebook"></a></li>
+								<li><a href="#" class="fa fa-fw fa-twitter"></a></li>
+								<li><a href="#" class="fa fa-fw fa-google-plus"></a></li>
+								<li><a href="#" class="fa fa-fw fa-dribbble"></a></li>
+								<li><a href="#" class="fa fa-fw fa-pinterest"></a></li>
+							</ul> -->
+						</div>
+						<!-- /Social -->
+
+					</div>
+				</div>
+			</div>
+			<!-- /Company Information -->
+
+			<div class="container">
+
+				<div class="row">
+					<div class="col-md-12">
+
+						<!-- Navigation Header -->
+						<div class="navbar-header">
+
+							<!-- Toggle Button -->
+							<button type="button"
+							class="navbar-toggle collapsed"
+							data-toggle="collapse"
+							data-target="#main-menu"
+							aria-expanded="false"
+							aria-controls="main-menu">
+
+							<span class="sr-only">Toggle Navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+
+						</button>
+						<!-- /Toggle Button -->
+
+						<!-- Brand -->
+						<a href="#" class="brand">
+
+							<!-- Logo Big -->
+							<img src="images/namelogo.png" class="logo-big" alt="" style="width:72px;height:32px">
+							<!-- /Logo Big -->
+
+						</a>
+						<!-- /Brand -->
+
+					</div>
+					<!-- /Navigation Header -->
+
+					<!-- Navigation -->
+					<div id="main-menu" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="index.html">首页</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle">公司资讯</a>
+								<ul class="dropdown-menu">
+									<li><a href="news.html?flag=1">热点资讯</a></li>
+									<li><a href="news.html?flag=2">视频资讯</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle">解决方案</a>
+								<ul class="dropdown-menu">
+									<li><a href="solution.html?flag=1">金融服务</a></li>
+									<li><a href="solution.html?flag=2">财经公关</a></li>
+									<li><a href="solution.html?flag=3">品牌营销</a></li>
+									<li><a href="solution.html?flag=4">商务活动</a></li>
+									<li><a href="solution.html?flag=5">视频制作</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle">公司产品</a>
+								<ul class="dropdown-menu">
+									<!-- <li><a href="blog-left-sidebar.html">ESG报告</a></li>
+									<li><a href="blog.html">金麦粒财经</a></li> -->
+									<li><a href="product.html">舆情小程序</a></li>
+								</ul>
+							</li>
+							<li><a href="partner.html">合作伙伴</a></li>
+							<li><a href="teamintro.html">团队介绍</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle">关于我们</a>
+								<ul class="dropdown-menu">
+									<li><a href="about.html?flag=1">加入我们</a></li>
+									<li><a href="about.html?flag=2">联系我们</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<!-- /Navigation -->
+
+				</div>
+			</div>
+
+		</div>
+	</nav>
+	<!-- /Navigation -->
+
+</header>
+<!-- /Header -->
+<div class="item mask" style="background: url(images/home.jpg) no-repeat center top / cover;height: 320px" data-stellar-background-ratio="0.4" >
+</div>
+<!-- Section: Page Header -->
+<div id = "aboutvue">
+	<section class="">
+		<div class="container" style="width: 65%">
+			<div class="row" >
+				<!-- Page Title -->
+				<div class="col-md-8 ">
+					<div style="margin-top: 13px;" >
+						<div class="glyphicon glyphicon-chevron-right" style="color: #EE9206;padding-right: 3px;"></div><span>关于我们</span>
+					</div>
+				</div>
+				<!-- /Page Title -->
+				<!-- Breadcrumbs -->
+				<div class="col-md-4">
+					<ul class="breadcrumb">
+						<li><i class="fa fa-fw fa-home"></i> <a href="#">首页</a></li>
+						<li><a href="#">关于我们</a></li>
+						<li style="color: #EE9206">{{typeinfo[typecode-1].title}}</li>
+					</ul>
+				</div>
+				<!-- /Breadcrumbs -->
+
+			</div>
+
+		</div>
+		<hr style="margin-top: 0px">
+	</section>
+
+
+
+
+	<section id="projects" class="">
+		<div class="container" style="width: 65%;">
+			<div class="row">
+				<div class="col-md-3 col-sm-4">
+					<div class="sidebar">
+						<!-- Widget: Categories -->
+						<div class="widget">
+							<!-- <h4 class="title">Categories</h4> -->
+							<ul class="sidebar-menu">
+								<li :class="typecode===1 ? 'active' : '' "><a @click = "changeType(1)">{{typeinfo[0].title}}</a></li>
+								<li :class="typecode===2 ? 'active' : '' "><a @click = "changeType(2)">{{typeinfo[1].title}}</a></li>
+							</ul>
+
+						</div>
+						<!-- /Widget: Categories -->
+						<div class="center-block">
+							<ul style="margin-top: 72px">
+								<li style="margin-bottom: 10px">联系人：人力资源部</li>
+								<li style="margin-bottom: 10px">电话：0755-26651965</li>
+								<li style="margin-bottom: 10px">admin@myleap.cn</li>
+							</ul>
+
+							<img src="images/ewm.jpg"  class="img-responsive center-block" style="width: 50%;"> 
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-9 col-sm-8">
+
+					<div class="personal-mybuluo-head" style="margin-bottom: 48px">  
+						<h5 class="personal-mybuluo-wording">{{typeinfo[typecode-1].title}}</h5>  
+						<div class="personal-border jmu-border-1px border-bottom"></div>  
+					</div>  
+					<div v-if="typecode===1">
+						<div class="shadow2 center-block  ">
+							<h3 class="text-center " style="color:#EE9206">{{typeinfo[typecode-1].subtitle}}</h3>
+							<p style="text-indent:25px">{{typeinfo[typecode-1].content}}</p>
+						</div>
+
+						<div v-for="(item,index) in typeinfo[typecode-1].joblist" class="center-block shadow2 " style="margin-top: 15px;">
+
+							<label style="color:#EE9206">{{item.name}}</label> 
+							<div class="row">
+								<div class="col-md-3" style="margin-top: 5px">部&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp门:{{item.department}}</div>
+								<div class="col-md-3"  style="margin-top: 5px">上班地点:{{item.address}}</div>
+							</div>
+							<div class="row">
+								<div class="col-md-3"  style="margin-top: 5px">招聘人数:{{item.count}}</div>
+								<div class="col-md-3"  style="margin-top: 5px">薪&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp酬:面议</div>
+							</div>
+							<label style="margin-top: 5px">任职要求</label>
+							<ul class="">
+								<li v-for ="subitem in item.rqlist">{{subitem}}</li>
+							</ul>
+						</div> 
+					</div>
+					<div v-if="typecode===2">
+						<div v-for="(item,index) in typeinfo[typecode-1].comlist" class="shadow2  center-block">
+							<h4 class=" " style="color:#EE9206">{{item.name}}</h4>
+							<p class="text">{{item.address}}</p>
+							<p class="text">{{item.en}}</p>
+						</div>
+						<div class="center-block text-center shadow2" style="margin-top: 48px">
+						<iframe width= 50% height= "753" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://j.map.baidu.com/-MTnO"></iframe></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div> 
+
+    <!-- Footer -->
+    <footer class="footer section-small" style="background-color: #F2F2F2; margin-top: 72px;">
+    	<div class="container">
+    		<div class="row">
+
+    			<!-- Footer Column -->
+    			<div class="col-md-4 col-xs-6 footer-col">
+
+    				<!-- Footer Logo -->
+    				<div class="logo">
+    					<img src="images/namelogo.png" alt="" style="height:32px">
+    				</div>
+    				<!-- /Footer Logo -->
+
+    				<!-- Footer Text -->
+    				<p class="text">
+    					深圳市金麦粒信息科技有限公司
+    				</p>
+    				<!-- /Footer Text -->
+
+    				<hr>
+
+    				<!-- Copyright -->
+    				<p class="copyright">
+    					Copyright © Shenzhen Golden Grain Information Technology Co., Ltd, All Rights Reserved.
+    					<!-- Copyright &copy; 2015-2016 <strong>Valery Timofeev</strong> -->
+    				</p>
+    				<!-- /Copyright -->
+
+    			</div>
+    			<!-- /Footer Column -->
+
+    			<!-- Footer Column -->
+    			<div class="col-md-4 col-xs-6 footer-col">
+
+    				<h3 class="title">联系方式：</h3>
+
+    				<!-- Footer Menu -->
+    				<ul class="menu">
+    					<li><p>0755-26651965</p></li>
+
+    					<li class="address"><p>深圳市南山区粤海街道海德三道166号航天科技广场B座20F 03-04A</p></li>
+    					<li class="address"><p>20F 03-04 Block B,Aerospace Science and Technology Plaza,No.166,Haide 3rd Avenue,Nanshan District,Shenzhen</p></li>
+    					<li class="email"><a href="mailto:admin@myleap.cn">admin@myleap.cn</a></li>
+    				</ul>
+    				<!-- /Footer Menu -->
+
+    			</div>
+    			<!-- /Footer Column -->
+
+    			<!-- Footer Column -->
+    			<div class="col-md-4 col-xs-6 footer-col">
+
+    				<!-- <h3 class="title">深圳市 <span class="text-theme">金麦粒</span>信息有限公司</h3> -->
+
+    				<!-- Footer Post -->
+    				<div class="media post">
+    					<div class="media-left">
+    						<div class="img-responsive">
+    							<img src="images/footer_c1.jpg" alt="" style="height: 48px;width: 48px;">
+    						</div>
+    					</div>
+    					<div class="media-body">
+    						<p class="text">
+    							信息网络传播视听节目许可证信息网络传播视听节目许可证
+    						</p>
+
+    					</div>
+    				</div>
+    				<!-- /Footer Post -->
+
+    				<!-- Footer Post -->
+    				<div class="media post">
+    					<div class="media-left">
+    						<div class="img-responsive" >
+    							<img src="images/footer_c2.jpg" alt="" style="height: 48px;width: 48px";>
+    						</div>
+    					</div>
+    					<div class="media-body">
+    						<p class="text">
+    							经营许可证号 粤ICP备16085032号
+    						</p>
+    						<p>许可证号：1903034</p>
+    					</div>
+    				</div>
+    				<!-- /Footer Post -->
+
+    			</div>
+    			<!-- /Footer Column -->
+
+
+
+    		</div>
+    	</div>
+    </footer>
+    <!-- /Footer -->
+
+    <!-- Scroll To Top -->
+    <div id="scroll-to-top" class="scroll-to-top">
+    	<i class="icon fa fa-angle-up"></i>
+    </div>
+    <!-- /Scroll To Top -->
+
+    <!-- Modal: Result Message -->
+    <div class="modal fade" id="result" role="dialog">
+    	<div class="modal-dialog">
+    		<div class="modal-content">
+
+    			<div class="modal-header">
+    				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+    					<i class="fa fa-times"></i>
+    				</button>
+    				<h4 class="modal-title">Sending message</h4>
+    			</div>
+
+    			<div class="modal-body">
+
+    				<div class="result-icon">
+    					<div class="icon-border">
+    						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" preserveAspectRatio="none">
+    							<circle cx="8" cy="8" r="6.215" transform="rotate(90 8 8)"></circle>
+    						</svg>
+    						<i class="icon fa fa-check"></i>
+    					</div>
+    				</div>
+
+    				<p class="modal-result h4 text-center"></p>
+    			</div>
+
+    		</div>
+    	</div>
+    </div>
+    <!-- /Modal: Result Message -->
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <!-- SCRIPTS -->
+    <script src="js/jquery-2.2.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/general.js"></script>
+    <script src="js/common/vue.min.js"></script>
+
+
+    <link rel="stylesheet" href="js/common/picswip/photoswipe.css"> 
+    <link rel="stylesheet" href="js/common/picswip/default-skin/default-skin.css"> 
+    <script src="js/common/picswip/photoswipe.min.js"></script> 
+    <script src="js/common/picswip/photoswipe-ui-default.min.js"></script>  
+    <!-- /SCRIPTS -->
+    <script type="text/javascript">
+    	$(document).ready(function(){
+    		var flag =  parseInt(GetQueryString("flag"));
+    		var listVue = new Vue({
+    			el: '#aboutvue',
+
+    			data: {
+    				typecode:flag,
+    				typeinfo:[]
+
+    			},
+    			created: function () {
+    				initdata(this)
+    				
+    			},
+    			mounted: function () {
+
+    			},
+    			methods: { 
+    				changeType:function(newtype){
+    					this.typecode = newtype;
+    				}
+    			}
+    		});
+    	});
+    	function showpic(items,index){
+    		var pswpElement = document.querySelectorAll('.pswp')[0];
+				// build items array
+				// var items = [
+				// {
+				// 	src: 'https://placekitten.com/600/400',
+				// 	w: 600,
+				// 	h: 400
+				// },
+				// {
+				// 	src: 'https://placekitten.com/1200/900',
+				// 	w: 1200,
+				// 	h: 900
+				// }
+				// ];
+
+				// define options (if needed)
+				var options = {
+				    // optionName: 'option value'
+				    // for example:
+				    index: index // start at first slide
+				};
+
+				// Initializes and opens PhotoSwipe
+				var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+				gallery.init();
+			}
+
+    	function GetQueryString(name){
+    		　　var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+    		　　var r = window.location.search.substr(1).match(reg);
+    		　　if(r!=null)return unescape(r[2]);
+    		return null;
+    	}
+    	function initdata(vue){
+
+    		for (var i = 1; i <3; i++) {
+    			var item = {};
+    			switch(i){
+    			
+    				case 1:
+    				item.title = "加入我们";
+    				item.joblist =[
+    				{"name":"常年项目高级经理",
+    				"department":"项目部",
+    			    "address":"深圳",
+    			    "count":"若干人",
+    				 "rqlist":["有较强的项目开拓能力和良好的客户沟通能力，有一定的项目资源，参与运作项目案例。","对外负责客户联络沟通，对内负责协调公司资源，统筹管理项目进程，把控项目质量" ,"深度分析客户和行业特点，挖掘客户价值，主导整体方案策划，提供专业的咨询服务","挖掘、整理项目资源和信息，对意向合作的企业展开调查和评估，提交公司决策","根据公司决策及客户的实际需求设计定制的方案","了解所有的项目工作的要求"]
+    			    },
+    			    {"name":"舆情中心主任", 
+    			    "department":"项目部",
+    			    "address":"深圳",
+    			    "count":"若干人",
+    			    "rqlist":["新闻传播、计算机、法律、公关、情报等相关专业,3年以上相关工作（信息安全、新闻传播）经验",
+    			    "负责对监测的信息做分析、判定，依据客户需求，针对合作客户的监测数据进行深度分析，进行相应的舆情日报、周报、月报以及不定期专题报告的撰写,主要形式为Word文档及PPT" ,
+    			    "迅速把握舆情热点，准确分析舆情，预测舆情走势，适当提出舆情建议",
+    			    "熟悉网络信息传播特性及发展趋势，有信息分析、情报分析及较强归纳能力，对社会大众心理与热点事件等分析研究具有浓厚兴趣",
+    			    "工作认真，思维敏锐，具有良好的洞察力、逻辑分析能力及沟通能力",
+    			    "有舆情分析、情报分析、政策咨询、媒体公关等工作经验者优先考虑"]
+    			    },
+    			    {"name":"驻外办事处主任", 
+    			    "department":"项目部",
+    			    "address":"深圳",
+    			    "count":"若干人",
+    			    "rqlist":["能熟练使用办公软件，掌握基本的项目管理知识",
+    			    "负责与上级甲方、公司三方之间的联系、沟通和协调工作" ,
+    			    "维护已有客户关系，建立客户档案，并在原有的基础上，不断拓展新的资源",
+    			    "及时反馈市场信息",
+    			    "完成公司下达的各项任务"]
+    			    },
+    			    {"name":"IPO项目经理", 
+    			    "department":"项目部",
+    			    "address":"深圳",
+    			    "count":"若干人",
+    			    "rqlist":["负责带领项目组成员，统筹完成公司的各种IPO财经类公关项目",
+    			    "负责参与拟上市公司发行上市关键阶段IPO项目的整体执行" ,
+    			    "负责企业价值挖掘、专业文案撰写等",
+    			    "负责从项目前期准备阶段到IPO路演发行到成功上市，与客户，保荐人，媒体等主要界面的对接",
+    			    "妥善处理客户及媒体关系，设计整体媒体投放方案、危机公关实施媒体监控、反馈投放效果"]
+    			    },
+    			    {"name":"媒介总监", 
+    			    "department":"项目部",
+    			    "address":"深圳",
+    			    "count":"若干人",
+    			    "rqlist":["负责统筹内容创作部管理工作，制定本部门管理制度、流程和培训",
+    			    "独立负责公司多层面媒体管理及维护" ,
+    			    "负责媒体公关发布统筹，监控公司各项目的媒体发布进程",
+    			    "负责媒体资源整理和拓展工作",
+    			    "参与公司内容运营策划工作，管理并统筹内容策划创作",
+    			    "负责根据整体媒体环境、客户行业特点、资本市场行情进行舆情分析，提供专业媒体策划方案"]
+    			    }
+
+    				];
+    				
+    				item.subtitle = "如果你热爱这个行业，那它就不止是一份工作！";
+    				item.content = "他们愿意把自己的全部能量挥洒在这里，愿意把对事业的美好憧憬寄托在这里，愿意忘记时间的流转并把对生活的热情融入这里，这里没有沉闷的交流，没有超越忍耐的合作，没有失去自由的畅想，没有无法逾越的隔阂，有的是心照不宣，轻松和谐；有的是放纵思绪，丰富且自得";   				
+    				break;
+    				case 2:
+    				item.title = "联系我们";
+    				item.comlist =[
+    				{"name":"深圳市金麦粒信息科技有限公司",
+    			    "address":"深圳市南山区粤海街道海德三道166号航天科技广场B座20F",
+    			    "en":"20F 03-04 Block B,Aerospace Science and Technology Plaza,No.166,Haide 3rd Avenue,Nanshan District,Shenzhen",
+    			    },
+    			    {"name":"星瑞财经有限公司",
+    			    "address":"香港九龙尖沙咀梳士巴利道3号星光行6楼629A室",
+    			    "en":"Room 629A,Star House,3 Salisbury Road,Tsim Sha Tsui, Kowloon,Hongkong",
+    			    }
+    				];
+    				break;
+    				default:
+    			}
+
+    			vue.typeinfo .push(item)   
+
+    		}
+
+    	}
+    </script>
+</body>
+</html>

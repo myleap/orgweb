@@ -1,0 +1,661 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- Page title -->
+	<title>金麦粒</title>
+
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/logo.png">
+
+	<!-- Style -->
+	<link rel="stylesheet" href="css/theme.css">
+	<link rel="stylesheet" href="css/solution.css">
+	<!-- TODO: Predefined Schemes (select one of the presented) -->
+	<link rel="alternate stylesheet" href="css/theme-persimmon.css" title="theme-persimmon">
+	<link rel="alternate stylesheet" href="css/theme-atomic-tangerine.css" title="theme-atomic-tangerine">
+	<link rel="alternate stylesheet" href="css/theme-yellow-sea.css" title="theme-yellow-sea">
+	<link rel="alternate stylesheet" href="css/theme-rio-grande.css" title="theme-rio-grande">
+	<link rel="alternate stylesheet" href="css/theme-vida-loca.css" title="theme-vida-loca">
+	<link rel="alternate stylesheet" href="css/theme-mountain-meadow.css" title="theme-mountain-meadow">
+	<link rel="alternate stylesheet" href="css/theme-java.css" title="theme-java">
+	<link rel="alternate stylesheet" href="css/theme-mariner.css" title="theme-mariner">
+	<link rel="alternate stylesheet" href="css/theme-medium-purple.css" title="theme-medium-purple">
+	<link rel="alternate stylesheet" href="css/theme-lavender-magenta.css" title="theme-lavender-magenta">
+	<style type="text/css">
+	.newstitle:after {  
+		content:'';  
+		display:block;  
+		margin-top:5px; 
+		border-bottom:2px solid #EE9206;  
+	}
+
+	.sidebar-menu li.active{  
+		background-color: #EE9206;
+		
+	} 
+	.sidebar-menu li a {
+		padding-left: 10px;
+	}
+	.sidebar-menu li.active a {
+		color:#fff;
+	}
+	.sidebar-menu li a:hover {
+		color: #000;
+	}
+	.breadcrumb>li+li:before{padding:0 5px;color:#ccc;content:">\00a0"}
+	body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 { font-family: Microsoft YaHei,'宋体' , Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;}
+	.bottom-center{
+        position: absolute;
+        bottom: 0px;
+        
+    }
+    .qr_code_pc_outer {  
+    	color: #717375;  
+    	display: block !important;  
+    	position: fixed;  
+    	left: 100px;  
+    	top: 200px;  
+    } 
+</style>
+
+</head>
+<body>
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div class="loader"></div>
+	</div>
+	<!-- /Preloader -->
+
+	<!-- Header -->
+	<header id="home" class="header">
+
+		<!-- Navigation -->
+		<nav id="navigation" class="navbar affix">
+
+			<!-- Company Information -->
+			<div class="information hidden-sm hidden-xs">
+				<div class="container">
+					<div class="row">
+
+						<!-- Feedback -->
+						<div class="col-md-7">
+							<a href="http://j.map.baidu.com/JlTnO" class="iframe-popup"><span class="icon icon_pin_alt"></span>联系地址</a>
+							<a href="#"><span class="icon icon_mail_alt"></span> admin@myleap.cn</a>
+							<a href="#"><span class="icon icon_phone"></span>0755-26651965</a>
+						</div>
+						<!-- /Feedback -->
+
+						<!-- Social -->
+						<div class="col-md-5">
+						<!--  -->
+						</div>
+						<!-- /Social -->
+
+					</div>
+				</div>
+			</div>
+			<!-- /Company Information -->
+
+			<div class="container">
+
+				<div class="row">
+					<div class="col-md-12">
+
+						<!-- Navigation Header -->
+						<div class="navbar-header">
+
+							<!-- Toggle Button -->
+							<button type="button"
+							class="navbar-toggle collapsed"
+							data-toggle="collapse"
+							data-target="#main-menu"
+							aria-expanded="false"
+							aria-controls="main-menu">
+
+							<span class="sr-only">Toggle Navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+
+						</button>
+						<!-- /Toggle Button -->
+
+						<!-- Brand -->
+						<a href="#" class="brand">
+
+							<!-- Logo Big -->
+							<img src="images/namelogo.png" class="logo-big" alt="" style="width:72px;height:32px">
+							<!-- /Logo Big -->
+
+						</a>
+						<!-- /Brand -->
+
+					</div>
+					<!-- /Navigation Header -->
+
+					<!-- Navigation -->
+					<div id="main-menu" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="index.html">首页</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle">公司资讯</a>
+								<ul class="dropdown-menu">
+									<li><a href="news.html?flag=1">热点资讯</a></li>
+									<li><a href="news.html?flag=2">视频资讯</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle">解决方案</a>
+								<ul class="dropdown-menu">
+									<li><a href="solution.html?flag=1">金融服务</a></li>
+									<li><a href="solution.html?flag=2">财经公关</a></li>
+									<li><a href="solution.html?flag=3">品牌营销</a></li>
+									<li><a href="solution.html?flag=4">商务活动</a></li>
+									<li><a href="solution.html?flag=5">视频制作</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle">公司产品</a>
+								<ul class="dropdown-menu">
+									<!-- <li><a href="blog-left-sidebar.html">ESG报告</a></li>
+									<li><a href="blog.html">金麦粒财经</a></li> -->
+									<li><a href="product.html">舆情小程序</a></li>
+								</ul>
+							</li>
+							<li><a href="partner.html">合作伙伴</a></li>
+							<li><a href="teamintro.html">团队介绍</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle">关于我们</a>
+								<ul class="dropdown-menu">
+									<li><a href="about.html?flag=1">加入我们</a></li>
+									<li><a href="about.html?flag=2">联系我们</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<!-- /Navigation -->
+
+				</div>
+			</div>
+
+		</div>
+	</nav>
+	<!-- /Navigation -->
+
+</header>
+<!-- /Header -->
+<div class="item mask" style="background: url(images/home.jpg) no-repeat center top / cover;height: 320px" data-stellar-background-ratio="0.4" >
+</div>
+<!-- Section: Page Header -->
+<div id = "newsvue">
+	<section class="">
+		<div class="container" style="width: 65%">
+			<div class="row" >
+				<!-- Page Title -->
+				<div class="col-md-8 ">
+					<div style="margin-top: 13px;" >
+						<div class="glyphicon glyphicon-chevron-right" style="color: #EE9206;padding-right: 3px;"></div><span>公司资讯</span>
+					</div>
+				</div>
+				<!-- /Page Title -->
+				<!-- Breadcrumbs -->
+				<div class="col-md-4">
+					<ul class="breadcrumb">
+						<li><i class="fa fa-fw fa-home"></i> <a href="#">首页</a></li>
+						<li><a href="#">公司资讯</a></li>
+						<li style="color: #EE9206">{{typeinfo[typecode-1].title}}</li>
+					</ul>
+				</div>
+				<!-- /Breadcrumbs -->
+
+			</div>
+
+		</div>
+		<hr style="margin-top: 0px">
+	</section>
+
+
+
+	<section id="projects" class="">
+		<div class="container" style="width: 65%">
+			<div class="row">
+				<div class="col-md-3 col-sm-4">
+					<div class="sidebar">
+						<!-- Widget: Categories -->
+						<div class="widget">
+							
+							<!-- <h4 class="title">Categories</h4> -->
+							<ul class="sidebar-menu">
+								<li :class="typecode===1 ? 'active' : '' "><a @click = "changeType(1)">{{typeinfo[0].title}}</a></li>
+								<li :class="typecode===2 ? 'active' : '' "><a @click = "changeType(2)">{{typeinfo[1].title}}</a></li>
+							</ul>
+
+						</div>
+						<!-- /Widget: Categories -->
+					</div>
+					<div class="center-block hidden-sm hidden-xs">
+						<ul style="margin-top: 72px">
+							<li style="margin-bottom: 10px">联系人:业务部</li>
+							<li style="margin-bottom: 10px">电话:0755-26651965</li>
+							<li style="margin-bottom: 10px">邮箱:admin@myleap.cn</li>
+						</ul>
+						<img src="images/ewm.jpg"  class="img-responsive center-block" style="width: 50%;"> 
+					</div>
+				</div>
+				<div class="col-md-9 col-sm-8">
+					<div class="personal-mybuluo-head" style="margin-bottom: 48px">  
+						<h5 class="personal-mybuluo-wording">{{typeinfo[typecode-1].title}}</h5>  
+						<div class="personal-border jmu-border-1px border-bottom"></div>  
+					</div>  
+					<div v-if="typecode===1">
+						<div v-for="item in newsList" class="shadow2 center-block">
+							<div class="row ">
+								<div class="col-md-10">
+									<label >{{item.title}}</label> 
+									<div class="row" style="padding: 5px">
+										<div class="col-md-4" >发布者:<span style="color: #EE9206">{{item.author}}</span></div>
+										<!-- <div class="col-md-3 ">
+											<div class="glyphicon glyphicon-eye-open" style="padding-right: 3px;"></div><span style="color: #EE9206">1979</span>
+										</div> -->
+									</div>
+									<p style="text-indent:25px;">{{item.content}}</p>
+									<button @click="detailnews(item)" style="background: transparent;border:none;"> 详细阅读  ></button>
+								</div>
+								<div class="col-md-2 hidden-sm hidden-xs" > 
+									<div class="center-block text-white" style="background-image: url(images/newsbg.jpg);background-size:cover;height: 82px;width: 62px;">
+										<div style="font-size: 3em ;padding-left: 2px;" >{{getMo(item.createtime)}}</div>
+										<div style="font-size: 1.2em;text-align: right;padding: 0px 10px 10px 0px;">{{getDay(item.createtime)}}日</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div v-else-if="typecode===2">
+						<div v-for="item in videoList" class="shadow2 center-block">
+							<div class="row ">
+								<div class="col-md-10">
+									<label >{{item.title}}</label> 
+									<div class="row" style="padding: 5px">
+										<div class="col-md-4">发布者:<span style="color: #EE9206">金麦粒</span>
+										</div>
+										<!-- <div class="col-md-3 ">
+											<div class="glyphicon glyphicon-eye-open" style="padding-right: 3px;"></div><span style="color: #EE9206">111</span>
+										</div> -->
+									</div>
+									<img v-bind:src="item.thumb" style="width: 100%">
+									<button @click="detailnews(item)" style="background: transparent;border:none;"> 详细阅读  ></button>
+								</div>
+								<div class="col-md-2 hidden-sm hidden-xs " > 
+									<div class="center-block text-white" style="background-image: url(images/newsbg.jpg);background-size:cover;height: 82px;width: 62px;">
+										<div style="font-size: 3em ;padding-left: 3px" >{{getMo(item.createtime)}}</div>
+										<div style="font-size: 1.5em;text-align: right;padding: 0px 5px 5px 0px">{{getDay(item.createtime)}}日</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<button @click="moreinfo" class="center-block" style="margin-top: 48px">{{noticeinfo}}</button>
+						</div>
+						
+					</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div> 
+
+    <!-- Footer -->
+    <footer class="footer section-small" style="background-color: #F2F2F2; margin-top: 72px">
+    	<div class="container">
+    		<div class="row">
+
+    			<!-- Footer Column -->
+    			<div class="col-md-4 col-xs-6 footer-col">
+
+    				<!-- Footer Logo -->
+    				<div class="logo">
+    					<img src="images/namelogo.png" alt="" style="height:32px">
+    				</div>
+    				<!-- /Footer Logo -->
+
+    				<!-- Footer Text -->
+    				<p class="text">
+    					深圳市金麦粒信息科技有限公司
+    				</p>
+    				<!-- /Footer Text -->
+
+    				<hr>
+
+    				<!-- Copyright -->
+    				<p class="copyright">
+    					Copyright © Shenzhen Golden Grain Information Technology Co., Ltd, All Rights Reserved.
+    					<!-- Copyright &copy; 2015-2016 <strong>Valery Timofeev</strong> -->
+    				</p>
+    				<!-- /Copyright -->
+
+    			</div>
+    			<!-- /Footer Column -->
+
+    			<!-- Footer Column -->
+    			<div class="col-md-4 col-xs-6 footer-col">
+
+    				<h3 class="title">联系方式：</h3>
+
+    				<!-- Footer Menu -->
+    				<ul class="menu">
+    					<li><p>0755-26651965</p></li>
+
+    					<li class="address"><p>深圳市南山区粤海街道海德三道166号航天科技广场B座20F 03-04A</p></li>
+    					<li class="address"><p>20F 03-04 Block B,Aerospace Science and Technology Plaza,No.166,Haide 3rd Avenue,Nanshan District,Shenzhen</p></li>
+    					<li class="email"><a href="mailto:admin@myleap.cn">admin@myleap.cn</a></li>
+    				</ul>
+    				<!-- /Footer Menu -->
+
+    			</div>
+    			<!-- /Footer Column -->
+
+    			<!-- Footer Column -->
+    			<div class="col-md-4 col-xs-6 footer-col">
+
+    				<!-- <h3 class="title">深圳市 <span class="text-theme">金麦粒</span>信息有限公司</h3> -->
+
+    				<!-- Footer Post -->
+    				<div class="media post">
+    					<div class="media-left">
+    						<div class="img-responsive">
+    							<img src="images/footer_c1.jpg" alt="" style="height: 48px;width: 48px;">
+    						</div>
+    					</div>
+    					<div class="media-body">
+    						<p class="text">
+    							信息网络传播视听节目许可证信息网络传播视听节目许可证
+    						</p>
+
+    					</div>
+    				</div>
+    				<!-- /Footer Post -->
+
+    				<!-- Footer Post -->
+    				<div class="media post">
+    					<div class="media-left">
+    						<div class="img-responsive" >
+    							<img src="images/footer_c2.jpg" alt="" style="height: 48px;width: 48px";>
+    						</div>
+    					</div>
+    					<div class="media-body">
+    						<p class="text">
+    							经营许可证号 粤ICP备16085032号
+    						</p>
+    						<p>许可证号：1903034</p>
+    					</div>
+    				</div>
+    				<!-- /Footer Post -->
+
+    			</div>
+    			<!-- /Footer Column -->
+
+
+
+    		</div>
+    	</div>
+    </footer>
+    <!-- /Footer -->
+
+    <!-- Scroll To Top -->
+    <div id="scroll-to-top" class="scroll-to-top">
+    	<i class="icon fa fa-angle-up"></i>
+    </div>
+    <!-- /Scroll To Top -->
+
+    <!-- Modal: Result Message -->
+    <div class="modal fade" id="result" role="dialog">
+    	<div class="modal-dialog">
+    		<div class="modal-content">
+
+    			<div class="modal-header">
+    				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+    					<i class="fa fa-times"></i>
+    				</button>
+    				<h4 class="modal-title">Sending message</h4>
+    			</div>
+
+    			<div class="modal-body">
+
+    				<div class="result-icon">
+    					<div class="icon-border">
+    						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" preserveAspectRatio="none">
+    							<circle cx="8" cy="8" r="6.215" transform="rotate(90 8 8)"></circle>
+    						</svg>
+    						<i class="icon fa fa-check"></i>
+    					</div>
+    				</div>
+
+    				<p class="modal-result h4 text-center"></p>
+    			</div>
+
+    		</div>
+    	</div>
+    </div>
+    <!-- /Modal: Result Message -->
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <!-- SCRIPTS -->
+    <script src="js/jquery-2.2.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/general.js"></script>
+    <script src="js/common/vue.min.js"></script>
+    <script src="js/common/ajaxUtil.js"></script>
+
+    <link rel="stylesheet" href="js/common/picswip/photoswipe.css"> 
+    <link rel="stylesheet" href="js/common/picswip/default-skin/default-skin.css"> 
+    <script src="js/common/picswip/photoswipe.min.js"></script> 
+    <script src="js/common/picswip/photoswipe-ui-default.min.js"></script>  
+    <!-- /SCRIPTS -->
+    <script type="text/javascript">
+    	$(document).ready(function(){
+    		var flag =  parseInt(GetQueryString("flag"));
+    		var listVue = new Vue({
+    			el: '#newsvue',
+
+    			data: {
+    				typecode:flag,
+    				typeinfo:[],
+    				newsList:[],
+    				videoList:[],
+    				noticeinfo:"加载中..."
+
+    			},
+    			created: function () {
+    				initdata(this)
+    				
+    			},
+    			mounted: function () {
+
+    			},
+    			methods: { 
+    				changeType:function(newtype){
+    					this.typecode = newtype;
+    					this.noticeinfo = "查看更多";
+    					if(this.typeinfo[this.typecode-1].current===1)
+    						{postList(this); }
+    				},
+    				detailnews:function(item,index){
+    					window.open(item.path);
+    				},
+    				getMo:function(date){
+    					var myDate = new Date(date);
+    					return myDate.getMonth()+1;
+    				}
+    				,
+    				getDay:function(date){
+    					var myDate = new Date(date);
+    					return myDate.getDate();
+    				},
+    				moreinfo:function(){
+    					postList(this);
+    				}
+    			}
+    		});
+
+    		function GetQueryString(name){
+    			　　var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+    			　　var r = window.location.search.substr(1).match(reg);
+    			　　if(r!=null)return unescape(r[2]);
+    			return null;
+    		}
+    		function initdata(vue){
+    			for (var i = 1; i <3; i++) {
+    				var item = {};
+    				vue.typeinfo .push(item)
+    				switch(i){
+    					case 1:
+    					item.title = "热点资讯";
+    					item.current = 1;
+    					item.newstype = 4;
+    					// postList(vue); 
+    					break;
+    					case 2:
+    					item.title = "视频资讯";
+    					item.current = 1;
+    					item.newstype = 1;
+    					break;
+    					default:
+    				}
+    			}
+    			postList(vue); 
+    		}
+    		function postList(vue){
+    			vue.noticeinfo = "加载中。。。"
+    			$ajaxutil.dopost("Information/getList",{uid:"",type:vue.typeinfo[vue.typecode-1].newstype,page:vue.typeinfo[vue.typecode-1].current,limit:3},function(ret,err){
+    				if (ret && ret.resCode == 200) {
+    					if (isNullOrEmpty(ret.objects) || ret.objects.length == 0) {
+    						vue.noticeinfo = "无更多数据";
+    					} else if (ret.objects.length < 3) {
+    						vue.noticeinfo = "无更多数据";
+    						if(vue.typeinfo[vue.typecode-1].newstype === 4){
+    							vue.newsList = vue.newsList.concat(ret.objects);
+    						}else{
+    							vue.videoList = vue.videoList.concat(ret.objects);
+    						}
+    						vue.typeinfo[vue.typecode-1].current++;
+    					} else {
+    						vue.noticeinfo = "查看更多";
+    						if(vue.typeinfo[vue.typecode-1].newstype === 4){
+    							vue.newsList = vue.newsList.concat(ret.objects);
+    						}else{
+    							vue.videoList = vue.videoList.concat(ret.objects);
+    						}
+    						vue.typeinfo[vue.typecode-1].current++;
+    					}
+    				} else if (err) {
+    					alert(JSON.stringify(err));
+    				}
+    			});
+    		}
+    		function isNullOrEmpty(o) {
+    			if (o !== null && o !== undefined && o !== '') {
+    				return false;
+    			}
+    			return true;
+    		}
+    	});
+
+	// if (ret.resCode == 200) {
+    				// 	if(ret.page>0)
+    				// 		vue.allpage =  Math.ceil(ret.page/9);
+    				// 	if (vue.current>vue.allpage){
+    				// 		vue.noticeinfo="无更多数据"
+    				// 	}else{
+    				// 		vue.newsList = ret.objects;
+    				// 	}
+    				// } else if (err) {
+    				// 	alert(JSON.stringify(err));
+    				// }
+
+    </script>
+</body>
+</html>

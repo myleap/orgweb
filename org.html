@@ -1,0 +1,656 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- Page title -->
+	<title>金麦粒</title>
+
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/logo.png">
+
+	<!-- Style -->
+	<link rel="stylesheet" href="css/theme.css">
+	<link rel="stylesheet" href="css/solution.css">
+	<!-- TODO: Predefined Schemes (select one of the presented) -->
+	<link rel="alternate stylesheet" href="css/theme-persimmon.css" title="theme-persimmon">
+	<link rel="alternate stylesheet" href="css/theme-atomic-tangerine.css" title="theme-atomic-tangerine">
+	<link rel="alternate stylesheet" href="css/theme-yellow-sea.css" title="theme-yellow-sea">
+	<link rel="alternate stylesheet" href="css/theme-rio-grande.css" title="theme-rio-grande">
+	<link rel="alternate stylesheet" href="css/theme-vida-loca.css" title="theme-vida-loca">
+	<link rel="alternate stylesheet" href="css/theme-mountain-meadow.css" title="theme-mountain-meadow">
+	<link rel="alternate stylesheet" href="css/theme-java.css" title="theme-java">
+	<link rel="alternate stylesheet" href="css/theme-mariner.css" title="theme-mariner">
+	<link rel="alternate stylesheet" href="css/theme-medium-purple.css" title="theme-medium-purple">
+	<link rel="alternate stylesheet" href="css/theme-lavender-magenta.css" title="theme-lavender-magenta">
+	<style type="text/css">
+	.newstitle:after {  
+		content:'';  
+		display:block;  
+		margin-top:5px; 
+		border-bottom:2px solid #EE9206;  
+	} 
+	.sidebar-menu li.active{  
+		background-color: #EE9206;
+		
+	} 
+	.sidebar-menu li a {
+		padding-left: 10px;
+	}
+	.sidebar-menu li.active a {
+		color:#fff;
+	}
+	.sidebar-menu li a:hover {
+		color: #000;
+	}
+	.breadcrumb>li+li:before{padding:0 5px;color:#ccc;content:">\00a0"}
+	body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 { font-family: Microsoft YaHei,'宋体' , Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;}
+</style>
+
+</head>
+<body>
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div class="loader"></div>
+	</div>
+	<!-- /Preloader -->
+
+	<!-- Header -->
+	<header id="home" class="header">
+
+		<!-- Navigation -->
+		<nav id="navigation" class="navbar affix">
+
+			<!-- Company Information -->
+			<div class="information hidden-sm hidden-xs">
+				<div class="container">
+					<div class="row">
+
+						<!-- Feedback -->
+						<div class="col-md-7">
+							<a href="http://j.map.baidu.com/JlTnO" class="iframe-popup"><span class="icon icon_pin_alt"></span>联系地址</a>
+							<a href="#"><span class="icon icon_mail_alt"></span> admin@myleap.cn</a>
+							<a href="#"><span class="icon icon_phone"></span>0755-26651965</a>
+						</div>
+						<!-- /Feedback -->
+
+						<!-- Social -->
+						<div class="col-md-5">
+							<!-- <ul class="social">
+								<li><a href="#" class="fa fa-fw fa-facebook"></a></li>
+								<li><a href="#" class="fa fa-fw fa-twitter"></a></li>
+								<li><a href="#" class="fa fa-fw fa-google-plus"></a></li>
+								<li><a href="#" class="fa fa-fw fa-dribbble"></a></li>
+								<li><a href="#" class="fa fa-fw fa-pinterest"></a></li>
+							</ul> -->
+						</div>
+						<!-- /Social -->
+
+					</div>
+				</div>
+			</div>
+			<!-- /Company Information -->
+
+			<div class="container">
+
+				<div class="row">
+					<div class="col-md-12">
+
+						<!-- Navigation Header -->
+						<div class="navbar-header">
+
+							<!-- Toggle Button -->
+							<button type="button"
+							class="navbar-toggle collapsed"
+							data-toggle="collapse"
+							data-target="#main-menu"
+							aria-expanded="false"
+							aria-controls="main-menu">
+
+							<span class="sr-only">Toggle Navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+
+						</button>
+						<!-- /Toggle Button -->
+
+						<!-- Brand -->
+						<a href="#" class="brand">
+
+							<!-- Logo Big -->
+							<img src="images/namelogo.png" class="logo-big" alt="" style="width:72px;height:32px">
+							<!-- /Logo Big -->
+
+						</a>
+						<!-- /Brand -->
+
+					</div>
+					<!-- /Navigation Header -->
+
+					<!-- Navigation -->
+					<div id="main-menu" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="index.html">首页</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle">公司介绍</a>
+								<ul class="dropdown-menu">
+									<li><a href="org.html?flag=1">董事长致词</a></li>
+									<li><a href="org.html?flag=2">公司格局</a></li>
+									<li><a href="org.html?flag=3">智媒体联盟</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle">公司资讯</a>
+								<ul class="dropdown-menu">
+									<li><a href="news.html?flag=1">热点资讯</a></li>
+									<li><a href="news.html?flag=2">视频资讯</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle">解决方案</a>
+								<ul class="dropdown-menu">
+									<li><a href="solution.html?flag=1">金融服务</a></li>
+									<li><a href="solution.html?flag=2">财经公关</a></li>
+									<li><a href="solution.html?flag=3">品牌营销</a></li>
+									<li><a href="solution.html?flag=4">商务活动</a></li>
+									<li><a href="solution.html?flag=5">视频制作</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle">公司产品</a>
+								<ul class="dropdown-menu">
+									<!-- <li><a href="blog-left-sidebar.html">ESG报告</a></li>
+									<li><a href="blog.html">金麦粒财经</a></li> -->
+									<li><a href="product.html">舆情小程序</a></li>
+								</ul>
+							</li>
+							<li><a href="partner.html">合作伙伴</a></li>
+							
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle">关于我们</a>
+								<ul class="dropdown-menu">
+									<li><a href="about.html?flag=1">加入我们</a></li>
+									<li><a href="about.html?flag=2">联系我们</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<!-- /Navigation -->
+
+				</div>
+			</div>
+
+		</div>
+	</nav>
+	<!-- /Navigation -->
+
+</header>
+<!-- /Header -->
+<div class="item mask" style="background: url(images/home.jpg) no-repeat center top / cover;height: 320px" data-stellar-background-ratio="0.4" >
+</div>
+<!-- Section: Page Header -->
+<div id = "aboutvue">
+	<section class="">
+		<div class="container" style="width: 65%">
+			<div class="row" >
+				<!-- Page Title -->
+				<div class="col-md-8 ">
+					<div style="margin-top: 13px;" >
+						<div class="glyphicon glyphicon-chevron-right" style="color: #EE9206;padding-right: 3px;"></div><span>公司介绍</span>
+					</div>
+				</div>
+				<!-- /Page Title -->
+				<!-- Breadcrumbs -->
+				<div class="col-md-4">
+					<ul class="breadcrumb">
+						<li><i class="fa fa-fw fa-home"></i> <a href="#">首页</a></li>
+						<li><a href="#">公司介绍</a></li>
+						<li style="color: #EE9206">{{typeinfo[typecode-1].title}}</li>
+					</ul>
+				</div>
+				<!-- /Breadcrumbs -->
+
+			</div>
+
+		</div>
+		<hr style="margin-top: 0px">
+	</section>
+
+
+
+
+	<section id="projects" class="">
+		<div class="container" style="width: 65%;">
+			<div class="row">
+				<div class="col-md-3 col-sm-4">
+					<div class="sidebar">
+						<!-- Widget: Categories -->
+						<div class="widget">
+							<!-- <h4 class="title">Categories</h4> -->
+							<ul class="sidebar-menu">
+								<li :class="typecode===1 ? 'active' : '' "><a @click = "changeType(1)">{{typeinfo[0].title}}</a></li>
+								<li :class="typecode===2 ? 'active' : '' "><a @click = "changeType(2)">{{typeinfo[1].title}}</a></li>
+								<li :class="typecode===3 ? 'active' : '' "><a @click = "changeType(3)">{{typeinfo[2].title}}</a></li>
+							</ul>
+
+						</div>
+						<!-- /Widget: Categories -->
+						<div class="center-block">
+							<ul style="margin-top: 72px">
+								<li style="margin-bottom: 10px">联系人：人力资源部</li>
+								<li style="margin-bottom: 10px">电话：0755-26651965</li>
+								<li style="margin-bottom: 10px">admin@myleap.cn</li>
+							</ul>
+
+							<img src="images/ewm.jpg"  class="img-responsive center-block" style="width: 50%;"> 
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-9 col-sm-8">
+
+					<div class="personal-mybuluo-head" style="margin-bottom: 48px">  
+						<h5 class="personal-mybuluo-wording">{{typeinfo[typecode-1].title}}</h5>  
+						<div class="personal-border jmu-border-1px border-bottom"></div>  
+					</div>  
+					<div v-if="typecode===1">
+						<div class="shadow2 center-block  ">
+							<h3 class="text-center " style="color:#EE9206">{{typeinfo[typecode-1].subtitle}}</h3>
+							<p style="text-indent:25px">{{typeinfo[typecode-1].content}}</p>
+						</div>
+					</div>
+					<div v-if="typecode===2">
+						<div v-for="(item,index) in typeinfo[typecode-1].comlist" class="shadow2  center-block">
+							<h4 class=" " style="color:#EE9206">{{item.name}}</h4>
+							<p class="text">{{item.address}}</p>
+							<p class="text">{{item.en}}</p>
+						</div>
+					</div>
+					<div v-if="typecode===3">
+						<div class="shadow2 center-block  ">
+							<h3 class="text-center " style="color:#EE9206">{{typeinfo[typecode-1].subtitle}}</h3>
+							<img v-bind:src="typeinfo[typecode-1].imgsrc"  class="img-responsive center-block"> 
+							<p v-for ="item in typeinfo[typecode-1].content" style="text-indent:25px">{{item}}</p>	
+						</div>
+					
+						<div v-for="(item,index) in typeinfo[typecode-1].memberlist" class="center-block shadow2 " style="margin-top: 15px;">
+							<label style="color:#EE9206">{{item.name}}</label> 
+							<p style="text-indent:25px">{{item.des}}</p>
+						</div> 
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div> 
+
+    <!-- Footer -->
+    <footer class="footer section-small" style="background-color: #F2F2F2; margin-top: 72px;">
+    	<div class="container">
+    		<div class="row">
+
+    			<!-- Footer Column -->
+    			<div class="col-md-4 col-xs-6 footer-col">
+
+    				<!-- Footer Logo -->
+    				<div class="logo">
+    					<img src="images/namelogo.png" alt="" style="height:32px">
+    				</div>
+    				<!-- /Footer Logo -->
+
+    				<!-- Footer Text -->
+    				<p class="text">
+    					深圳市金麦粒信息科技有限公司
+    				</p>
+    				<!-- /Footer Text -->
+
+    				<hr>
+
+    				<!-- Copyright -->
+    				<p class="copyright">
+    					Copyright © Shenzhen Golden Grain Information Technology Co., Ltd, All Rights Reserved.
+    					<!-- Copyright &copy; 2015-2016 <strong>Valery Timofeev</strong> -->
+    				</p>
+    				<!-- /Copyright -->
+
+    			</div>
+    			<!-- /Footer Column -->
+
+    			<!-- Footer Column -->
+    			<div class="col-md-4 col-xs-6 footer-col">
+
+    				<h3 class="title">联系方式：</h3>
+
+    				<!-- Footer Menu -->
+    				<ul class="menu">
+    					<li><p>0755-26651965</p></li>
+
+    					<li class="address"><p>深圳市南山区粤海街道海德三道166号航天科技广场B座20F 03-04A</p></li>
+    					<li class="address"><p>20F 03-04 Block B,Aerospace Science and Technology Plaza,No.166,Haide 3rd Avenue,Nanshan District,Shenzhen</p></li>
+    					<li class="email"><a href="mailto:admin@myleap.cn">admin@myleap.cn</a></li>
+    				</ul>
+    				<!-- /Footer Menu -->
+
+    			</div>
+    			<!-- /Footer Column -->
+
+    			<!-- Footer Column -->
+    			<div class="col-md-4 col-xs-6 footer-col">
+
+    				<!-- <h3 class="title">深圳市 <span class="text-theme">金麦粒</span>信息有限公司</h3> -->
+
+    				<!-- Footer Post -->
+    				<div class="media post">
+    					<div class="media-left">
+    						<div class="img-responsive">
+    							<img src="images/footer_c1.jpg" alt="" style="height: 48px;width: 48px;">
+    						</div>
+    					</div>
+    					<div class="media-body">
+    						<p class="text">
+    							信息网络传播视听节目许可证信息网络传播视听节目许可证
+    						</p>
+
+    					</div>
+    				</div>
+    				<!-- /Footer Post -->
+
+    				<!-- Footer Post -->
+    				<div class="media post">
+    					<div class="media-left">
+    						<div class="img-responsive" >
+    							<img src="images/footer_c2.jpg" alt="" style="height: 48px;width: 48px";>
+    						</div>
+    					</div>
+    					<div class="media-body">
+    						<p class="text">
+    							经营许可证号 粤ICP备16085032号
+    						</p>
+    						<p>许可证号：1903034</p>
+    					</div>
+    				</div>
+    				<!-- /Footer Post -->
+
+    			</div>
+    			<!-- /Footer Column -->
+
+
+
+    		</div>
+    	</div>
+    </footer>
+    <!-- /Footer -->
+
+    <!-- Scroll To Top -->
+    <div id="scroll-to-top" class="scroll-to-top">
+    	<i class="icon fa fa-angle-up"></i>
+    </div>
+    <!-- /Scroll To Top -->
+
+    <!-- Modal: Result Message -->
+    <div class="modal fade" id="result" role="dialog">
+    	<div class="modal-dialog">
+    		<div class="modal-content">
+
+    			<div class="modal-header">
+    				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+    					<i class="fa fa-times"></i>
+    				</button>
+    				<h4 class="modal-title">Sending message</h4>
+    			</div>
+
+    			<div class="modal-body">
+
+    				<div class="result-icon">
+    					<div class="icon-border">
+    						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" preserveAspectRatio="none">
+    							<circle cx="8" cy="8" r="6.215" transform="rotate(90 8 8)"></circle>
+    						</svg>
+    						<i class="icon fa fa-check"></i>
+    					</div>
+    				</div>
+
+    				<p class="modal-result h4 text-center"></p>
+    			</div>
+
+    		</div>
+    	</div>
+    </div>
+    <!-- /Modal: Result Message -->
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <!-- SCRIPTS -->
+    <script src="js/jquery-2.2.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/general.js"></script>
+    <script src="js/common/vue.min.js"></script>
+
+
+    <link rel="stylesheet" href="js/common/picswip/photoswipe.css"> 
+    <link rel="stylesheet" href="js/common/picswip/default-skin/default-skin.css"> 
+    <script src="js/common/picswip/photoswipe.min.js"></script> 
+    <script src="js/common/picswip/photoswipe-ui-default.min.js"></script>  
+    <!-- /SCRIPTS -->
+    <script type="text/javascript">
+    	$(document).ready(function(){
+    		var flag =  parseInt(GetQueryString("flag"));
+    		var listVue = new Vue({
+    			el: '#aboutvue',
+
+    			data: {
+    				typecode:flag,
+    				typeinfo:[]
+
+    			},
+    			created: function () {
+    				initdata(this)
+    				
+    			},
+    			mounted: function () {
+
+    			},
+    			methods: { 
+    				changeType:function(newtype){
+    					this.typecode = newtype;
+    				}
+    			}
+    		});
+    	});
+    	function showpic(items,index){
+    		var pswpElement = document.querySelectorAll('.pswp')[0];
+				// build items array
+				// var items = [
+				// {
+				// 	src: 'https://placekitten.com/600/400',
+				// 	w: 600,
+				// 	h: 400
+				// },
+				// {
+				// 	src: 'https://placekitten.com/1200/900',
+				// 	w: 1200,
+				// 	h: 900
+				// }
+				// ];
+
+				// define options (if needed)
+				var options = {
+				    // optionName: 'option value'
+				    // for example:
+				    index: index // start at first slide
+				};
+
+				// Initializes and opens PhotoSwipe
+				var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+				gallery.init();
+			}
+
+    	function GetQueryString(name){
+    		　　var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+    		　　var r = window.location.search.substr(1).match(reg);
+    		　　if(r!=null)return unescape(r[2]);
+    		return '1';
+    	}
+    	function initdata(vue){
+
+    		for (var i = 1; i <4; i++) {
+    			var item = {};
+    			switch(i){
+    			
+    				case 1:
+    				item.title = "董事长致词";
+    			
+    				item.subtitle = "董事长致词";
+    				item.content = "他们愿意把自己的全部能量挥洒在这里，愿意把对事业的美好憧憬寄托在这里，愿意忘记时间的流转并把对生活的热情融入这里，这里没有沉闷的交流，没有超越忍耐的合作，没有失去自由的畅想，没有无法逾越的隔阂，有的是心照不宣，轻松和谐；有的是放纵思绪，丰富且自得";   				
+    				break;
+    				case 2:
+    				item.title = "公司格局";
+    				item.comlist =[
+    				{"name":"深圳市金麦粒信息科技有限公司",
+    			    "address":"深圳市南山区粤海街道海德三道166号航天科技广场B座20F",
+    			    "en":"20F 03-04 Block B,Aerospace Science and Technology Plaza,No.166,Haide 3rd Avenue,Nanshan District,Shenzhen",
+    			    },
+    			    {"name":"星瑞财经有限公司",
+    			    "address":"香港九龙尖沙咀梳士巴利道3号星光行6楼629A室",
+    			    "en":"Room 629A,Star House,3 Salisbury Road,Tsim Sha Tsui, Kowloon,Hongkong",
+    			    }
+    				];
+    				break;
+    				case 3:
+    				item.title = "智媒体联盟";
+    				item.memberlist =[
+    				{"name":"看财经",
+    				"des":"看财经文化传媒（深圳）有限公司是业内领先的财经内容制作商，也是打造纯公益财经内容的直播平台。看财经精心打造的7*24小时直播通过传统电视渠道、PC端、手机端三网同步播出已涵盖千万受众，专业犀利的财经内容、通俗流畅的表达风格、别具一格的节目设计，形成了“看财经出品”广受观众好评和认可的重要因素和独特优势，也成为看财经团队逐渐形成口碑和知名度的重要基石"
+    			    },
+    			    {"name":"短线王",
+    				"des":"A股股民选股工具，2015年融资1个亿，创始人互联网行业出身。还有数说A股的公众号。"
+    			    },
+    			    {"name":"德林社",
+    				"des":"德林社是A股面对股民的短视频内容公司，创始人记者出身，李德林，黄利明，影响力较大。"
+    			    },
+    			    {"name":"大猫财经",
+    				"des":"是泛财经号，创始人之前是搜狐财经总编辑。"
+    			    },
+    			    {"name":"商业人物",
+    				"des":"商业人物主要介绍财富人物，企业家人物。创始人迟宇宙，写过《联想传》，《海信传》。"
+    			    },
+    			    {"name":"蓝鲸财经观察",
+    				"des":"蓝鲸已经成为一个财经平台，包含了财联社、蓝鲸财经记者工作平台，收入过亿，证券时报投资。"
+    			    },
+    			    {"name":"易简财经",
+    				"des":"易简财经，创始张威"
+    			    },
+    			    {"name":"君临",
+    				"des":"君临是成长股发掘和研究平台。"
+    			    },
+    			    {"name":"财经锐眼",
+    				"des":"投资家/财经锐眼是财经财富类自媒体。"
+    			    },
+    			    {"name":"投行大师兄",
+    				"des":"投行大师兄是股民投资和培训自媒体，作者本身是私募投资人。"
+    			    },
+    			    {"name":"深蓝财经",
+    				"des":"深蓝财经是中国最大的财经记者社区。社区拥有采访通讯录、记者福利商城、媒体招聘等功能，是财经记者的工作交流平台。公众微信号（shenlancaijing）"
+    			    },
+    				];
+    				
+    				item.subtitle = "中国智媒体联盟";
+    				item.imgsrc = "images/zmt.jpg";
+    				item.content = [
+    				"日前，由深圳市金麦粒信息科技有限公司主办的第一届金麦粒·智媒体联盟沙龙在昆明湖景酒店召开。会议上，由金麦粒牵头，与财联社、短线王、深蓝财经、易简财经、大猫财经、投行大师兄、投资家网、德林社、并购优塾、君临、商业人物等数十位商界知名财经媒体人/CEO、自媒体大咖、独立撰稿人联合发起“中国智媒体联盟”。",
+    				"面对市场的诸多变化，媒体人无时无刻都需要求生存谋发展，通过线下沙龙分享交流各自的创业心得，可以相互汲取经验，从而抱团取暖，共同奋进。中国智媒体联盟的成立旨在倡导媒体人秉持初心砥砺前行，聚焦正能量，共同营造有利于资本市场健康发展的守法、诚信、健康、干净的舆论环境，将为上市公司在资本市场的价值挖掘与价值传播搭建起信任的沟通桥梁，助力新时代自媒体阵营的多元化发展。",
+    				"交流会上，大咖携手新锐自媒体人对于“自媒体人的痛点、诉求和运营自媒体的核心，以及自媒体平台存在的意义和行业的发展方向”同时进行了深入讨论。他们强调，自媒体需要为投资者带来独特的产品/价值，用户才会持续支持知识付费，才有有机会发展成为“超级用户”，从而贡献流量与变现。除了对自媒体的成功运营展开探讨，其他创业者们还分享了创业路上的点滴。",
+    				"金麦粒地处深圳，不仅服务于内地的上市公司，同时也能够为港股上市公司进行内地范围的价值传播，独具A股与港股市场互联互通的区位优势。未来，自媒体联盟将是未来投资者关注的主要阵营。通过本届智媒体沙龙上思维与能量的碰撞，各媒体号相互学习进行别开生面的头脑风暴独具意义，相信未来能携手金麦粒，一起为资本市场的价值挖掘及价值传播发力发声。"
+    				];   				
+    				break;
+    				default:
+    			}
+
+    			vue.typeinfo .push(item)   
+
+    		}
+
+    	}
+    </script>
+</body>
+</html>
